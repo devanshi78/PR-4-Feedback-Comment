@@ -1,16 +1,103 @@
-# React + Vite
+# ⭐ PR-4-Feedback & Comment App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **Feedback & Comment application** built using **React + Vite**. Users can submit ratings using star icons and leave comments, which are displayed dynamically in a responsive card layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **Live Link:** [https://pr-4-feedback-comment.vercel.app/](https://pr-4-feedback-comment.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Feedback App Screenshot](/src/assets/screenshot.png)
+
+---
+
+## ✨ Features
+
+* ⭐ 5-star rating system
+* 💬 Feedback comment input
+* 🧾 Display submitted feedback in cards
+* 🎨 Clean & beginner‑friendly UI
+* ⚡ Fast performance with Vite
+* 📱 Responsive design
+
+---
+
+## 🛠 Tech Stack
+
+* **React JS**
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS3**
+* **React Icons**
+
+---
+
+## 📂 Project Structure
+
+```
+PR-4-Feedback-Comment/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/devanshi78/PR-4-Feedback-Comment.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd PR-4-Feedback-Comment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌱 Learning Outcome
+
+* Managing state in React
+* Handling user input & events
+* Dynamic rendering using `.map()`
+* Building reusable UI components
+* Basic project structuring with Vite
+
+---
+
+## 👩‍💻 Author
+
+**Devanshi Parekh**
+🔗 GitHub: [https://github.com/devanshi78](https://github.com/devanshi78)
+
+---
+
+⭐ *If you like this project, don’t forget to give it a star!*
